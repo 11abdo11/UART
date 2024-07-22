@@ -1,0 +1,182 @@
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Wed Sep 20 00:24:12 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     10
+    Unconnected ports (LINT-28)                                     1
+    Feedthrough (LINT-29)                                           8
+    Constant outputs (LINT-52)                                      1
+
+Cells                                                              25
+    Cells do not drive (LINT-1)                                    25
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C123' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C342' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C343' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C344' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C345' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C370' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C372' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C133' does not drive any nets. (LINT-1)
+Warning: In design 'edgebitcounter', cell 'C123' does not drive any nets. (LINT-1)
+Warning: In design 'edgebitcounter', cell 'C136' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C124' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C125' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C132' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_22' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_23' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_24' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_25' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_26' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_27' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_28' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'C450' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'C469' does not drive any nets. (LINT-1)
+Warning: In design 'WFIFO', cell 'C196' does not drive any nets. (LINT-1)
+Warning: In design 'RFIFO', cell 'C191' does not drive any nets. (LINT-1)
+Warning: In design 'edgebitcounter', port 'parity_en' is not connected to any nets. (LINT-28)
+Warning: In design 'divmux', input port 'REG2[7]' is connected directly to output port 'Prescale[5]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[6]' is connected directly to output port 'Prescale[4]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[5]' is connected directly to output port 'Prescale[3]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[4]' is connected directly to output port 'Prescale[2]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[3]' is connected directly to output port 'Prescale[1]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[2]' is connected directly to output port 'Prescale[0]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[1]' is connected directly to output port 'PAR_TYP'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[0]' is connected directly to output port 'PAR_EN'. (LINT-29)
+Warning: In design 'sysctrl', output port 'CLK_DIV_EN' is connected directly to 'logic 1'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Wed Sep 20 00:35:00 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     19
+    Unconnected ports (LINT-28)                                     1
+    Feedthrough (LINT-29)                                           8
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              25
+    Cells do not drive (LINT-1)                                    25
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C123' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C342' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C343' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C344' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C345' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C370' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C372' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C133' does not drive any nets. (LINT-1)
+Warning: In design 'edgebitcounter', cell 'C123' does not drive any nets. (LINT-1)
+Warning: In design 'edgebitcounter', cell 'C136' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C124' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C125' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C132' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_22' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_23' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_24' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_25' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_26' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_27' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_28' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'C450' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'C469' does not drive any nets. (LINT-1)
+Warning: In design 'WFIFO', cell 'C196' does not drive any nets. (LINT-1)
+Warning: In design 'RFIFO', cell 'C191' does not drive any nets. (LINT-1)
+Warning: In design 'edgebitcounter', port 'parity_en' is not connected to any nets. (LINT-28)
+Warning: In design 'divmux', input port 'REG2[7]' is connected directly to output port 'Prescale[5]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[6]' is connected directly to output port 'Prescale[4]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[5]' is connected directly to output port 'Prescale[3]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[4]' is connected directly to output port 'Prescale[2]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[3]' is connected directly to output port 'Prescale[1]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[2]' is connected directly to output port 'Prescale[0]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[1]' is connected directly to output port 'PAR_TYP'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[0]' is connected directly to output port 'PAR_EN'. (LINT-29)
+Warning: In design 'divmux', output port 'divratio[7]' is connected directly to output port 'divratio[3]'. (LINT-31)
+Warning: In design 'divmux', output port 'divratio[7]' is connected directly to output port 'divratio[4]'. (LINT-31)
+Warning: In design 'divmux', output port 'divratio[7]' is connected directly to output port 'divratio[5]'. (LINT-31)
+Warning: In design 'divmux', output port 'divratio[7]' is connected directly to output port 'divratio[6]'. (LINT-31)
+Warning: In design 'sysctrl', output port 'CLK_DIV_EN' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divmux', output port 'divratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'divmux', output port 'divratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'divmux', output port 'divratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'divmux', output port 'divratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'divmux', output port 'divratio[3]' is connected directly to 'logic 0'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Wed Sep 20 00:42:00 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     19
+    Unconnected ports (LINT-28)                                     1
+    Feedthrough (LINT-29)                                           8
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              25
+    Cells do not drive (LINT-1)                                    25
+--------------------------------------------------------------------------------
+
+Warning: In design 'CLK_DIV', cell 'C123' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C342' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C343' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C344' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C345' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C370' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C372' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C133' does not drive any nets. (LINT-1)
+Warning: In design 'edgebitcounter', cell 'C123' does not drive any nets. (LINT-1)
+Warning: In design 'edgebitcounter', cell 'C136' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C124' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C125' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'C132' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_22' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_23' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_24' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_25' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_26' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_27' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'B_28' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'C450' does not drive any nets. (LINT-1)
+Warning: In design 'fsmRX', cell 'C469' does not drive any nets. (LINT-1)
+Warning: In design 'WFIFO', cell 'C196' does not drive any nets. (LINT-1)
+Warning: In design 'RFIFO', cell 'C191' does not drive any nets. (LINT-1)
+Warning: In design 'edgebitcounter', port 'parity_en' is not connected to any nets. (LINT-28)
+Warning: In design 'divmux', input port 'REG2[7]' is connected directly to output port 'Prescale[5]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[6]' is connected directly to output port 'Prescale[4]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[5]' is connected directly to output port 'Prescale[3]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[4]' is connected directly to output port 'Prescale[2]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[3]' is connected directly to output port 'Prescale[1]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[2]' is connected directly to output port 'Prescale[0]'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[1]' is connected directly to output port 'PAR_TYP'. (LINT-29)
+Warning: In design 'divmux', input port 'REG2[0]' is connected directly to output port 'PAR_EN'. (LINT-29)
+Warning: In design 'divmux', output port 'divratio[7]' is connected directly to output port 'divratio[3]'. (LINT-31)
+Warning: In design 'divmux', output port 'divratio[7]' is connected directly to output port 'divratio[4]'. (LINT-31)
+Warning: In design 'divmux', output port 'divratio[7]' is connected directly to output port 'divratio[5]'. (LINT-31)
+Warning: In design 'divmux', output port 'divratio[7]' is connected directly to output port 'divratio[6]'. (LINT-31)
+Warning: In design 'sysctrl', output port 'CLK_DIV_EN' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divmux', output port 'divratio[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'divmux', output port 'divratio[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'divmux', output port 'divratio[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'divmux', output port 'divratio[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'divmux', output port 'divratio[3]' is connected directly to 'logic 0'. (LINT-52)
+1

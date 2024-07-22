@@ -1,0 +1,26 @@
+Info:  Net Imp:/WORK/CLK_DIV_0_DW01_inc_0/SUM[0] is undriven.
+Info:  Net Imp:/WORK/CLK_DIV_1_DW01_inc_0/SUM[0] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[7] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[6] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[5] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[4] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[3] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[2] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[1] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/remainder[0] is undriven.
+Info:  Net Imp:/WORK/ALU_DW_div_uns_0/divide_by_0 is undriven.
+Info:  Net Imp:/WORK/ALU_DW01_sub_0/CO is undriven.
+Info:  Net Imp:/WORK/ALU_DW01_add_0/CO is undriven.
+Info:  Net Imp:/WORK/ALU_DW01_add_1/CO is undriven.
+Info:  guide_uniquify 119 (Line: 1090)  Cannot find object "U1_CLK_DIV/U9" in design 'TOP_SYS'.
+Info:  SVF Operation 119 (Line: 1090) - uniquify.  Status: rejected
+Info:  guide_uniquify 119 (Line: 1090)  Cannot find object "U0_CLK_DIV/U9" in design 'TOP_SYS'.
+Info:  guide_uniquify 131 (Line: 1173)  Cannot find object "U0_ALU/dp_cluster_0/mult_49" in design 'TOP_SYS'.
+Info:  SVF Operation 131 (Line: 1173) - uniquify.  Status: rejected
+Info:  guide_uniquify 132 (Line: 1177)  Cannot find object "U0_CLK_DIV/dp_cluster_0/mult_add_42_aco" in design 'TOP_SYS'.
+Info:  SVF Operation 132 (Line: 1177) - uniquify.  Status: rejected
+Info:  guide_uniquify 133 (Line: 1181)  Cannot find object "U1_CLK_DIV/dp_cluster_0/mult_add_42_aco" in design 'TOP_SYS'.
+Info:  Pre-verification of Ref:/WORK/ALU/div_52 SUCCEEDED.
+Info:  Pre-verification of Ref:/WORK/ALU/mult_49 SUCCEEDED.
+Info:  Pre-verification of Ref:/WORK/CLK_DIV_1/mult_add_42_aco SUCCEEDED.
+Info:  Pre-verification of Ref:/WORK/CLK_DIV_0/mult_add_42_aco SUCCEEDED.
